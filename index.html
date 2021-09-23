@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSUN Map Quiz</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- the questions  -->
+    <div id="quiz">
+      <h1 class="title">
+        CSUN Map Quiz
+      </h1>
+      
+      <p id="question0" style="visibility:visible;">
+        1. Where is the Art and Design Center?
+      </p>
+      <p id="answer0">
+        placeholder
+      </p>
+      
+      <p id="question1">
+        2. Where is the Oviatt Library?
+      </p>
+      <p id="answer1">
+        placeholder
+      </p>
+      
+      <p id="question2">
+        3. Where is the Orange Grove?
+      </p>
+      <p id="answer2">
+        placeholder
+      </p>
+      
+      <p id="question3">
+        4. Where is the Department of Music?
+      </p>
+      <p id="answer3">
+        placeholder
+      </p>
+      
+      <p id="question4">
+        5. Where is the CSUN Gym?
+      </p>
+      <p id="answer4">
+        placeholder
+      </p>
+      
+      <p id="question5"></p>
+      <p id="answer5"></p>
+      
+      <h2 class="correct">
+        Correct: <span id="displayCorrect"></span>
+      </h2>
+      
+      <h2 class="incorrect">
+        Incorrect: <span id="displayIncorrect"></span>
+      </h2>
+      
+      
+    </div>
+
+    <div id="map"></div>
+    <!-- the map -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCg30LnS1oL1njriYZk9Kj1wm2_58LXSRU&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+  </body>
+</html>

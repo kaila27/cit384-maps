@@ -1,0 +1,77 @@
+#map {
+  height: 100%;
+  width: 50%;
+  float: right;
+  margin: 10px;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#quiz {
+  height: 100%;
+  width: 35%;
+  float: left;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+}
+
+.correct {
+  color: white;
+  visibility: hidden;
+}
+
+.incorrect {
+  color: white;
+  visibility: hidden;
+}
+
+#displayCorrect {
+  color: green;
+}
+
+#displayIncorrect {
+  color: red;
+}
+
+#question0,
+#question1,
+#question2,
+#question3,
+#question4 {
+  color: black;
+  font-weight: bold;
+  border-radius: 10px;
+  text-align: left;
+  visibility: hidden;
+}
+
+#answer0,
+#answer1,
+#answer2,
+#answer3,
+#answer4 {
+  color: white;
+  text-align: left;
+  visibility: hidden;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  float: left;
+  visibility: visible;
+}
